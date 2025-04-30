@@ -1,12 +1,14 @@
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="layout.css">
         <link rel="stylesheet" type="text/css" href="index.css">
+        <title>Tanaka Guzuwe</title>
     </head>
     <body>
         <div class='hero-section'>
 
             <div class="main-nav">
-                <div>Tanaka<br> guzuwe</div>
+                <div class="logo">Tanaka<br> guzuwe</div>
                 <div class="nav-list">
                     <div>work</div>
                     <div>about</div>
@@ -17,11 +19,15 @@
             </div>
             
                 <h1 class="main-title">portfolio</h1>
-                <img class="main-picture" src="mainImg/ph portrait.png">
-                <div>
-                    <div>Front End Developer</div>
-                    <div>Graphic Designer</div>
-                    <div>Back-End Developer</div>
+                
+                    
+                <div class="main-content">
+                    <img  src="mainImg/portfolio-main-image-blue.png">
+                    <div class="role-list">
+                        <div>Front End Developer</div>
+                        <div>Graphic Designer</div>
+                        <div>Back-End Developer</div>
+                    </div>
                 </div>
                 <div class="main-blue-bar"></div>
 
@@ -29,63 +35,92 @@
 
         <div class="about-section">
             <div class="about-title">About</div>
+            <div class="about-content">
 
-            <div class="about-intro">
-                <div class="about-name">
-                    <h3>Tanaka</h3>
-                    <h2>Guzuwe</h2>
-                </div>
-                <hr>
-                <h1>Introduction</h1>
-                <p>What is Lorem Ipsum?
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type 
-                    specimen book. It has survived not only five centuries, but also the leap into 
-                    electronic typesetting, remaining essentially unchanged. It was popularised in 
-                    the 1960s with the release of Letraset sheets containing Lorem
-                </p>
+                <div class="about-left">
 
-            </div>
+                    <div class="about-intro">
+                        <div class="about-name">
+                            <h3>Tanaka</h3>
+                            <h2>Guzuwe</h2>
+                        </div>
+                        <hr>
+                        <h1>Introduction</h1>
+                        <p><span>Why am i the right fit?</span><br>
+                            As a first-class graduate in Electronic Engineering, I possess a strong foundation in 
+                            programming with expertise in Python, Django, C++, and web development. My passion for 
+                            coding is evident in my self-driven projects, including developing a custom GUI library 
+                            for game engines and a map editor that streamlines game development. I’m also currently 
+                            building a full-fledged e-commerce website using Django, JavaScript, HTML, and CSS, integrating 
+                            PayPal for transactions. With a natural inclination for leadership, problem-solving, and 
+                            communication, I am eager to apply my technical skills and creativity to contribute to a 
+                            dynamic development team.
+                        </p>
+                        <hr>
+                    </div>
+                    <div>
+                        <h2>Contact</h2>
+                        <span>Email: Tanaka.guzz@live.com</span>
+                    </div>
 
-            <div class="about-skills">
-                <h1>Technical Skills</h1>
-                <h2>Coding Skills</h2>
-                <div class="skills-grid">
-                    <span>HTML/CSS</span>
-                    <div></div>
-                    <span>Javascript</span>
-                    <div></div>
-                    <span>Python/Django</span>
-                    <div></div>
-                    <span>C++</span>
-                    <div></div>
                 </div>
-                <h2>Software Skills</h2>
-                <div class="software-list">
-                    <img src="mainImg/illustator-icon.png">
-                    <img src="mainImg/photoshop-icon.png">
-                    <img src="mainImg/figma-icon.png">
+
+                <div class="about-right">
+
+                    <div class="about-skills">
+                        <h1>Technical Skills</h1>
+                        <hr>
+                        <h2>Coding Skills</h2>
+                        <div class="skills-grid">
+                            <span>HTML/CSS</span>
+                            <div></div>
+                            <span>Javascript</span>
+                            <div></div>
+                            <span>Python/Django</span>
+                            <div></div>
+                            <span>C++</span>
+                            <div></div>
+                        </div>
+                        <h2>Software Skills</h2>
+                        <div class="software-list">
+                            <img src="mainImg/illustator-icon.png">
+                            <img src="mainImg/photoshop-icon.png">
+                            <img src="mainImg/figma-icon.png">
+                        </div>
+                        <hr>
+                    </div>
+                    <div>
+                        <h2>Education</h2>
+                        <span>bacholors - electronic engineering</span>
+                    </div>
+                    
+
                 </div>
+
 
             </div>
 
         </div>
 
         <div class="project-section">
-            <h1>My Project</h1>
+            <h1 class="project-title">My Project</h1>
 
             <div class="Projects-container">
-                <div>Project1</div>
-                <div>Project2</div>
-                <div>Project3</div>
-                <div>Project4</div>
+                <div class="project-thumbail" onclick="location.href='nebula.html';">Project1
+                    <div class="nebula-bar"></div>
+                    <img class="nebula-thumb" src="mainImg/nebula-thumbnail.png">
+                </div>
+                <div class="project-thumbail">Project2
+                    <img class="piano-thumb" src="mainImg/pianoApp-Home-thumb.png">
+                </div>
+                <div class="project-thumbail">Project3</div>
+                <div class="project-thumbail">Project4</div>
             </div>
 
         </div>
 
         <div class="Services-section">
-            <h1>Services</h1>
+            <h1 class="services-title">Services</h1>
 
         </div>
         
