@@ -28,6 +28,20 @@
     font-size: 24px;
     
 }
+.main-nav  div a{
+    font-family: 'venus-rising';
+    text-decoration: none;
+    color: black;
+
+    font-size: 24px;
+    
+}
+
+.main-nav  div a:hover{
+    text-decoration: none;
+    color: #29B5DB;
+    
+}
 .logo{
     color:#29B5DB
 }

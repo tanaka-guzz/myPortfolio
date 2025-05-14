@@ -1,0 +1,24 @@
+.content{
+    padding: 0 3rem;
+}
+.title{
+    font-size: 32;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+.section{
+    margin:5rem 0;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+}
+.section1 div{
+    width:40%;
+}
+.section2, .section3, .section4{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+}
