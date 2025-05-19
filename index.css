@@ -1,4 +1,7 @@
 
+hr{
+    border: 1.5px solid black;
+}
 .hero-section{
     position: relative;
     height:100%;
@@ -55,12 +58,27 @@
 
 .about-section{
     display: block;
+    --dot-bg: white;
+    --dot-color: rgb(80, 80, 80);
+    --dot-size: 1px;
+    --dot-space: 22px;
+	background:
+		linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
+
+    padding-top: 10vh;
+    
 }
+
+
+
+
 
 .about-title{
     font-size:64;
     text-align: center;
-    margin: 1em 0em;
+    margin-bottom: 10vh;
 }
 
 .about-content{

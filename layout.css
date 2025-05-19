@@ -10,9 +10,19 @@
     font-family: 'venus-rising';
     src: url('fonts/venus\ rising\ rg.otf');
 }
+@font-face {
+    font-family: 'zekton';
+    src: url('fonts/zekton\ rg.otf')
+}
+
 *{
     font-family: 'apex-mk2-l';
 }
+
+p{
+    font-family: 'zekton';
+}
+
 
 .main-nav{
     display: flex;
