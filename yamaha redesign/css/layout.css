@@ -42,9 +42,6 @@
     left: 50%;
     transform: translate(-50%,0);
     background-color:white;
-
-    visibility: hidden;
-    opacity: 0;
     
 }
 
