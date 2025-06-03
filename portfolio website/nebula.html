@@ -1,0 +1,212 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="nebula.css">
+        <title>Tanaka Guzuwe</title>
+    </head>
+    <body>
+        <div class="main-nav">
+            <div><a href="index.html"> Tanaka<br> guzuwe </a></div>
+            <div class="nav-list">
+                <div>work</div>
+                <div>about</div>
+                <div>services</div>
+            </div>
+        
+
+        </div>
+
+        <div class="content">
+            <h2 class="title">Planning</h2>
+            <div class="section section1">
+                <div>
+                    <h3>What is nebula Mods</h3>
+                    <p>
+                        The client had an ebay buisness selling repaired consoles and controllers as well as modded consoles. 
+                        they wanted a cool website that had a futuristic cyberpunk look to make the modding of older consoles 
+                        feel newer and premium. They website should increase sales of the clients buisness. the website will increase 
+                        the business exposure while avoiding the ebay fees.<br><br>
+
+                        The main audienc are middle aged gamers that dont mind spending more for a custome gaming 
+                        expiriance..<br><br>
+                            
+                        The website will compete with websites such as scuff Gaming and clutch controlers that have a 
+                        more sleek and modern look.<br><br>
+                    </p>
+                </div>
+                <div>
+                    <h3>Technogies used</h3>
+                    <div class="Skill-list">
+                        <ul>
+                            <li><img src="skills-icons/html-icon.svg">HTML/CSS</li>
+                            <li><img src="skills-icons/django-icon.svg">Django</li>
+                            <li><img src="skills-icons/illustrator-icon.svg">Illustrator</li>
+                        </ul>
+                        <ul>
+                            <li><img src="skills-icons/javascript-icon.svg">javascript</li>
+                            <li><img src="skills-icons/figma-icon.svg">Figma</li>
+                            <li><img src="skills-icons/paypal-icon.svg">Paypal Api</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section section2">
+                <div>
+                    <h3>Prototyping</h3>
+                    <p>
+                        After doing research and creating a specification and reqirments I use Figma inorder to 
+                        prototype key pages of the website along with wireframing the design with pen and paper to 
+                        test navigation, user interactions, and overall flow.<br><br>
+
+                        This step helps identify usability issues early, refine design choices, and gather feedback before 
+                        full development begins, ultimately saving time and resources.
+                    </p>
+                </div>
+                <div>
+
+                    <img src="nebula-img/front page mockup 1.png">
+
+                </div>
+            </div>
+
+            <div class="section section3">
+
+                <img class="s3-img1" src="nebula-img/main-page-desgin.png">
+                <div class="s3-txt1">
+                    <h3>Finalising design</h3>
+                    <p>
+                        Before implementing the design in code i then decide on a colour scheme with the client and create a 
+                        simple logo. then assets such as logos and background elements are collected and created using 
+                        illustrator.<br><br>
+
+                        The assets are carefully placed on the layout to give life to the website. 
+                        fonts are chosen for both style and readability.<br><br>
+
+                    </p>
+                </div>
+
+                <div class="s3-txt2">
+                    <h3>Social Media and Forms</h3>
+                    <p>
+                        If the client has a social media presence we decide where to include it and how. in the case its 
+                        in the footer of every page of the website.<br><br>
+
+                        Forms the user will have to submit are designed to avoid and confusing and be easy to fill out increasing conversions.
+
+                    </p>
+                </div>
+
+                <img class="s3-img2" src="nebula-img/profile-design.png">
+            </div>
+
+            <h2 class="title title4">Mobile</h2>
+            <div class="section section4">
+
+                <div class="mobileImages">
+                    <img src="nebula-img/mobile-img1.png">
+                    <img src="nebula-img/mobile-img2.png">
+                    <img src="nebula-img/mobile-img3.png">
+                    
+                </div>
+            </div>
+
+            <h2 class="title">Implementation</h2>
+
+            <div class="section section5">
+                <img src="nebula-img/databaseImg.png">
+                <p>
+                    <span>Managing Databases</span><br><br>
+
+                    Django Managers are used to create databases. the advantages are :<br><br>
+
+                    -encapsulation of logic allowing reuse of query logic allowing the whole database to be made quicker than using sql.
+                    <br><br>
+                    -improved code organisation by keeping model related logic inside the model rather than scattering it out through views making the code more maintainable.
+                    <br><br>
+                    -Cleaner queries
+                    <br><br>
+                    -separation of concerns e.g maintaining the separation of the store logic and the user and staff logic
+                    <br><br>
+                    -easy to extend and override default behaviour for advanced cases
+                </p>
+
+            </div>
+
+            <div class="section section6">
+                <div>
+                    <img src="nebula-img/storeimg.png">
+                    <p>
+                        <span>Store page</span> <br><br>
+                        Every online store should have well ordered navigation. using django models the user 
+                        can filter games through the systems they belong to. each product has tags to indicate 
+                        more info such as The type of modification done or the storage of the console as well as 
+                        if its a custom design.
+                    </p>
+                </div>
+
+                <div>
+                    <img src="nebula-img/productpageimg.png">
+                    <p>
+                        <span>product page</span> <br><br>
+                        In order to store all the text for the products while leaving room to format it later dynamically 
+                        the text is saved in the database using markdown language that can be used with django to essentially 
+                        save something similar to html in the database and have it be rendered when delivered from the backend.
+
+                    </p>
+                </div>
+
+                <div>
+                    <img src="nebula-img/login.png">
+                    <p>
+                        <span>Login Page</span> <br><br>
+                        The background for this page was custom made in illustrator in order to give a futuristic cyberpunk 
+                        look. Django provides a simple was to create a login and authentication system that pre packed to be 
+                        secure. There is also a pre built password recovery system that can use the buisness email to reset 
+                        the password. The entire system can be customized to fit the branding of diffrent buisnesses.
+                    </p>
+                </div>
+
+                <div>
+                    <img src="nebula-img/register.png">
+                    <p>
+                        <span>Register Page</span> <br><br>
+                        djangos built in registration form provied client and server side validation. The client side validation 
+                        is good because its much quicker than server side validation meaning the user dosnt get a delay when miss 
+                        inputting info creating a better user expiriance. It also applies authentication such as https encryption 
+                        making it an easy and safe solution.
+                    </p>
+                </div>
+
+                <div>
+                    <img src="nebula-img/basket.png">
+                    <p>
+                        <span>Basket Page</span> <br><br>
+                        The basket page has good usability features such as changing the quantity of items and deleting 
+                        them in-case a user changes their mind at the end so they stay on the page. There are 2 variations of 
+                        the basket one that instantly updates the backend if the user is logged in and another cookie based 
+                        solution for guest users.
+
+                    </p>
+                </div>
+
+                <div>
+                    <img src="nebula-img/checkout.png">
+                    <p>
+                        <span>checkout page</span> <br><br>
+                        The checkout page is simple to navigate providing good ux design. The Paypal api was used for 
+                        purchases as Paypal is a trusted payment method and is widely used. The api also has a lot of 
+                        documentation making it easy to implement. When a logged in user checks out they aren't required 
+                        to enter the name and email address further improving the ux creating a stress free buying 
+                        experience.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

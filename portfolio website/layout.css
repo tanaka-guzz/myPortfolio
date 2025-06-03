@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'apex-mk2-l';
+    src: url('fonts/ApexMk2-LightCondensed.otf');
+}
+@font-face {
+    font-family: 'expansiva';
+    src: url('fonts/Expansiva.otf');
+}
+@font-face {
+    font-family: 'venus-rising';
+    src: url('fonts/venus\ rising\ rg.otf');
+}
+@font-face {
+    font-family: 'zekton';
+    src: url('fonts/zekton\ rg.otf')
+}
+
+*{
+    font-family: 'apex-mk2-l';
+}
+
+p{
+    font-family: 'zekton';
+}
+
+
+.main-nav{
+    display: flex;
+    width:98%;
+    padding:5px, 5%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+.main-nav  div{
+    font-family: 'venus-rising';
+    font-size: 24px;
+    
+}
+.main-nav  div a{
+    font-family: 'venus-rising';
+    text-decoration: none;
+    color: black;
+
+    font-size: 24px;
+    
+}
+
+.main-nav  div a:hover{
+    text-decoration: none;
+    color: #29B5DB;
+    
+}
+.logo{
+    color:#29B5DB
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+    
+}
+
+.nav-list div{
+    font-family: 'expansiva';
+}
+
+.nav-list div:hover{
+    color:#29B5DB;
+}
